@@ -5,6 +5,10 @@ import express from "express";
 import { connectDatabase } from "./utils/database";
 import { Document } from "./models/Document";
 import { CursorUpdate } from "./types/CursorUpdate";
+import dotenv from "dotenv";
+
+// Load environment variables from .env file
+dotenv.config();
 
 const PORT = process.env.PORT || 3001;
 const DEFAULT_VALUE = "";
