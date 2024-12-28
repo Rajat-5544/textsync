@@ -7,6 +7,6 @@
     "strict": true,                                     /* Enable all strict type-checking options */
     "skipLibCheck": true,                               /* Skip type checking of all .d.ts files */
     "outDir": "./dist",                                 /* Specify output directory for compiled files */
-    "types": ["node", "dotenv"]                                  
+    "types": ["node"]                                  
   }
 }
