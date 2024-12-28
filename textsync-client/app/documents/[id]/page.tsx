@@ -42,7 +42,7 @@ export default function DocumentEditor() {
 
   // Connect to the socket server once
   useEffect(() => {
-    const s = io("http://localhost:3001"); // Connect to the server
+    const s = io("https://textsync-server.onrender.com"); // Connect to the server
     setSocket(s);
 
     return () => {
